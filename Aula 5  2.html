@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Agendamento banho e tosa</h1>
+    <h2>faça o seu Agendamento com pelo menos 48h de antecedencia</h2>
+
+    <form action="">
+        <fieldset>
+            <legend>Informações do dono do animal</legend>
+            <div>
+                <label> Nome: </label>
+                <input type="text" placeholder="Digite Seu nome aqui"  maxlength="100">
+            </div>
+            <div>
+                <label for="">Endereço: </label>
+                <input type="text" placeholder="Digite o Endereço">
+            </div>
+            <div>
+                <label for="">CEP:</label>
+                <input type="text" placeholder="XXXXXXXX">
+            </div>
+            <div>
+                <label for="">E-mail:</label>
+                <input type="email" placeholder="email@email.com">
+            </div>
+            <div>
+                <label for="">Tel/Cel:</label>
+                <input type="text" placeholder="99 99999-9999">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend> animal</legend>
+            <div>
+            <label for="">Nome:</label>
+            <input type="text" placeholder="Digite o nome do animal">
+        </div>
+        <div>
+            <label for="">Porte do cão:</label>
+            <input type="radio" value="pequeno" name="porte-cao"> 
+            <label>Pequeno</label>
+            <input type="radio" value="medio" name="porte-cao"> 
+            <label>Mèdio</label>
+            <input type="radio" value="grande" name="porte-cao"> 
+            <label>Grande</label>
+        </div>
+        <div>
+            <select name="" id="">
+                <option value="nenhuma">Nenhuma</option>
+                <option value="padrao">Tosa padrão</option>
+                <option value="higiennica">Tosa Higienica</option>
+                <option value="tesoura">Tosa na Tesoura</option>
+                <option value="raca">Tosa da Raça</option>
+                <option value="bebe">Tosa Bebe </option>
+            </select>
+
+        </div>
+        <div>
+            <label> OBservações</label>
+            <textarea cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <label> Indique os dias da semnana de sua preferencia:</label>
+
+            <input type="checkbox" value="ter">
+            <label>terça feira</label>
+
+            <input type="checkbox" value="qua">
+            <label>quarta feira</label>
+
+            <input type="checkbox" value="qui">
+            <label>quinta feira</label>
+
+            <input type="checkbox" value="sex">
+            <label>sexta feira</label>
+
+            <input type="checkbox" value="sab">
+            <label>sabado</label>
+        </div>
+        <div>
+            <label for="">
+               primeira opção
+            </label>
+            <input type="time" >
+        </div>
+        <div>
+            <label for="">
+               Segunda opção
+            </label>
+            <input type="time" >
+        </div><div>
+            <label for="">
+               Terceira opção
+            </label>
+            <input type="time" >
+        </div>
+        <div>
+            <label for="">
+               Quarta opção
+            </label>
+            <input type="time" >
+        </div>
+        <div>
+            <label for="">
+               Quinta opção
+            </label>
+            <input type="time" >
+        </div>
+        </fieldset>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <form action="">
+
+    </form>
+</body>
+</html>
