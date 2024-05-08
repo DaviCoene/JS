@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width: 50%;
+            margin: auto;
+        }
+        h1{
+            color: #909;
+            border-bottom: solid thin #909;
+            text-align: right;
+        }
+        img{
+            float: left;
+        }
+        fieldset{
+            border: solid #fcc;
+            height: 120px;
+        }
+        input, textarea{
+            background-color: #FCC;
+            border-style: none;
+        }
+        label{
+            display: inline-block;
+            width: 100px;
+        }
+        input, textarea{
+            width: 300px;
+            
+        }
+
+        div{
+            margin: 15px 0;
+        }
+
+        input [type="submit"]{
+            width: 80px;
+            margin-top: 10px;
+        }
+        fieldset:nth-of-type(2){
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Dados da conta</h1>
+    <img src="formulario.png" alt="">
+    <form action="">
+        <fieldset>
+            <legend> Dados Pessoais: </legend>
+            <div>
+                <label for="nome">Nome: </label>
+                <input type="text">
+            </div>
+            <div>
+                <label for=""></label>    
+                <input type="email">
+            </div>
+
+            
+        </fieldset>
+        <fieldset>
+            <legend> Dados da Conta: </legend>
+            <div>
+                <label for="senha">Senha</label>
+                <input type="password">
+            </div>
+            <div>
+                <label for="opcional">Frase opcional</label>
+                <textarea name="opcional" id="opcional" cols="15" rows="2"></textarea>
+            </div>
+        </fieldset>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
