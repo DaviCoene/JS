@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            
+            margin: auto;
+            width: 50%;
+        }
+        thead{
+            background-color: #036;
+            color:white;
+            font: bold;
+        }
+        tfoot{
+            background-color: #036;
+            color: white;
+            font: bold;
+        }
+        table, td, th, tr{
+            border: solid thin #036;
+            border-collapse: collapse;
+            border-color: black;
+        }
+        table{
+            width: 500px;
+            text-align: center;
+            border:
+        }
+        
+        thead, th{
+            border-color: #fff;
+        }
+
+        td[colspan="5"] {
+            font-weight: bold;
+            font-size: 25px;
+            padding: 10px;
+        }
+        caption{
+            background-color: #036;
+            border-color: black;
+        }
+
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Tabela</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Modelo</th>
+                <th rowspan="2">Altura</th>
+                <th rowspan="2">largura</th>
+                <th colspan="2">Acessórios</th>
+            </tr>
+            <tr>
+                <th>USB</th>
+                <th>WIFI</th>
+            </tr>
+        </thead>
+
+
+        <tbody>
+            <tr>
+                <td>Xk-7</td>
+                <td>20</td>
+                <td>20</td>
+                <td><img src="sim.jpg" alt=""></td>
+                <td><img src="nao.jpg" alt=""></td>
+            </tr>
+            <tr>
+                <td>Wz8</td>
+                <td>10</td>
+                <td>15</td>
+                <td><img src="nao.jpg" alt=""></td>
+                <td><img src="nao.jpg" alt=""></td>
+            </tr>
+            <tr>
+                <td>X15</td>
+                <td>30</td>
+                <td>30</td>
+                <td><img src="sim.jpg" alt=""></td>
+                <td><img src="sim.jpg" alt=""></td>
+            </tr>
+        </tbody>
+
+
+        <tfoot>
+            <tr>
+                <td colspan="5">Dados Técnicos do equipamento</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
