@@ -1,0 +1,21 @@
+body{
+    width: 90%;
+    margin: auto;
+
+}
+img{
+    width: 100%;
+
+}
+#tela-gd, #tela-md{
+    display: none;
+}
+#tela-pq{
+    display: block;
+}
+article{
+    width: 100%;
+}
+h1{
+    text-align: center;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+        #tela-gd,
+        #tela-pq {
+            display: none;
+        }
+
+        #tela-mq {
+            display: block;
+        }
+
+        article {
+            width: 46%;
+            float: left;
+            text-align: center;
+        }
+
+        article:nth-of-type(2) {
+            margin-left: auto;
+            width: 100%;
+            float: none;
+        }
+        h1{
+            text-align: center;
+        }
+        img {
+            width: 100%;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" media="(max-width: 419px)"href="">
+    <link rel="stylesheet" media="(min-width: 420px)"href="">
+    <link rel="stylesheet" media="(min-width: 680px)"href="">
+
+</head>
+    
+
+<body>
+    <h1 id="tela-gd">Tela grande: min. 680px</h1>
+    <h1 id="tela-md">Tela média: min. 420px</h1>
+    <h1 id="tela-pq">Tela pequena: min. 419px</h1>
+
+    <article>
+        <img src="" alt="">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda reiciendis iure, asperiores voluptatum
+            fuga ex molestias minima suscipit odit recusandae culpa nostrum natus quia a numquam alias eaque eveniet
+            quam.
+        </p>
+    </article>
+
+    <article>
+        <img src="" alt="">
+
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur, iste ratione inventore quas eum
+            dolores non vero libero molestias magni ea accusamus suscipit iusto temporibus. Facilis, enim quo.
+            Doloribus, aut!
+        </p>
+    </article>
+
+    <article>
+        <img src="" alt="">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ipsa corporis accusantium, amet
+            repellendus ut omnis cumque asperiores excepturi, aut nisi consequatur ex eos pariatur necessitatibus quos
+            sequi, esse maiores!
+        </p>
+    </article>
+</body>
+
+</html>
